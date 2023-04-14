@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100vh;
+    font-family: 'Poppins';
+    background-color: rgb(33, 37, 46);
+}
+
+.webgl {
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 16em 8em;
+    z-index: 1;
+    color: white;
+}
+
+h1 {
+    font-size: 4rem;
+}
